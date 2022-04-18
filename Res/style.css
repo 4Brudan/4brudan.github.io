@@ -1,156 +1,268 @@
-body{
+body {
   font-size: 3vw;
-  font-family:Formula1;
-  margin:0;
+  font-family: Formula1;
+  margin: 0;
   background-color:black;
-  color:white;
+  color: white;
 }
-#pg{
-  width:100vw;
-  height:150vh;
+
+#pg {
+  width: 100vw;
+  height: 300vh;
 }
-.container{
-  height:100%;
-  width:100%;
+
+.container {
+  height: 100%;
+  width: 100%;
 }
-#header{
+
+#header {
   text-align: center;
   width: 100vw;
-  height:10vh;
+  height: 10vh;
 }
-.cel{
+
+.cel {
   float: left;
-  align-items:top;
+  align-items: top;
   width: 10vw;
   font-size: 1.8vw;
   display: inline-flex;
-  margin-left:5vw;
+  margin-left: 5vw;
 }
-.home{
+
+.home {
   font-size: 1.8vw;
   display: inline-flex;
 }
-.aboutus{
+
+.aboutus {
   font-size: 1.8vw;
   display: inline-flex;
 }
-.sponsors{
+
+.sponsors {
   font-size: 1.8vw;
   display: inline-flex;
 }
-.contact{
+
+.contact {
   font-size: 1.8vw;
   display: inline-flex;
 }
-.logo{
+
+.logo {
   float: left;
-  width:10vw;
-  height:7vw;
-  margin-top:2.5vh;
+  width: 10vw;
+  height: 7vw;
+  margin-top: 2.5vh;
 }
-.titlef{
-  color:red;
-  font-size:3vw;
-  font-weight:bold;
-  text-align:center;
-}
-.textf{
-  font-size:2vw; 
+
+.titlef {
+  color: red;
+  font-size: 3vw;
+  font-weight: bold;
   text-align: center;
-  width:80;
-  margin-left:10vw;
-  margin-right:10vw; 
 }
-#homepg{
-  padding-top:10vh;
+
+.textf {
+  font-size: 2vw;
+  text-align: center;
+  width: 80;
+  margin-left: 10vw;
+  margin-right: 10vw;
 }
-video{
+
+#homepg {
+  padding-top: 10vh;
+}
+
+video {
   width: 100vw;
   height: 50vh;
-  float:center;
-  text-align:center;
+  float: center;
+  text-align: center;
 }
-.teamm{
-  font-size:3vw;
-  text-align:center;
+
+.teamm {
+  font-size: 3vw;
+  text-align: center;
 }
-.namem{
-  font-size:2vw;
-  margin:3vh 10%;
+
+.namem {
+  font-size: 2vw;
+  margin: 3vh 10%;
 }
-.textm{
-  font-size:1.5vw;
-  text-align:center;
-  margin:0 10%;
-  width:40vw;
-  float:left;
-  margin-bottom:10vh;
+
+.textm {
+  font-size: 1.5vw;
+  text-align: center;
+  margin: 0 10%;
+  width: 40vw;
+  float: left;
+  margin-bottom: 10vh;
 }
+
 #more {
   display: none;
 }
-#myBtn{
-  width:40vw;
-  margin:auto 10%;
+
+#myBtn {
+  width: 40vw;
+  margin: auto 10%;
   font-family: Formula1;
-  color:white;
-  background-color:black;
+  color: white;
+  background-color: black;
 }
-.imgm{
-  width:40vw;
-  float:right;
-  height:13vw;
+
+.imgm {
+  width: 40vw;
+  float: right;
+  height: 13vw;
 }
-.imga{
-  width:20vw;
-  height:40vh;
-  border-radius:5%;
+
+.imga {
+  width: 20vw;
+  height: 40vh;
+  border-radius: 5%;
 }
-.imgmd{
-  width:20vw;
-  height:60vh;
-  border-radius:5%;
+
+.imgmd {
+  width: 20vw;
+  height: 60vh;
+  border-radius: 5%;
 }
-.imgal{
-  width:20vw;
-  height:40vh;
+
+.imgal {
+  width: 20vw;
+  height: 40vh;
 }
-.imgd{
-  width:20vw;
-  height:60vh;
+
+.imgd {
+  width: 20vw;
+  height: 60vh;
 }
-.imgv{
-  width:20vw;
-  height:40vh;
+
+.imgv {
+  width: 20vw;
+  height: 40vh;
 }
+
 #bound-one {
-	background:black;
+  background: black;
 }
+
 #bound-two {
-	background:black;
+  background: black;
 }
+
 #bound-three {
-	background:black;
+  background: black;
 }
+
 .scroll-bound {
-	height: 100vh;
+  height: 100vh;
 }
-	.content {
-		height: 100vh;
-		width: 100%;
-		position: sticky;
-		top:0;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	
-	video {
-		width: 100%;
-	}
-.teams{
-  width:100vw;
-  align-items:center;
+
+.content {
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  width: 100%;
+}
+
+.teams {
+  width: 100vw;
+  align-items: center;
+  margin: 0;
+}
+
+.spons {
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+}
+
+.sponst {
+  margin-left: 25vw;
+}
+
+.sponimg {
+  margin-top: 10vh;
+  height: 120vh;
+  width: 100vw;
+}
+.ford{
+  width:28vw;
+  height:33vw;
+  padding:0;
+  margin:0 0 0 10vw;
+  display: inline-flex;
+}
+.fordimg{
+  width:20vw;
+  height:30vh;
+}
+.miele{
+  width:28vw;
+  height:40vw;
   margin:0;
+  display: inline-flex;
+}
+.mieleimg{  
+  width:20vw;
+  height:30vh;
+}
+.elgeka{
+  width:28vw;
+  height:33vw;
+  margin:0;
+  display: inline-flex;
+  float:right;
+}
+.elgekaimg{
+  width:23vw;
+  height:30vh;
+}
+.autoliv{
+  width:28vw;
+  height:35vw;
+  padding:0;
+  margin:0 0 0 10vw;
+  display: inline-flex;
+}
+.autolivimg{
+  width:23vw;
+  height:30vh;
+}
+.schaeffler{
+  width:28vw;
+  height:10vh;
+  padding:0;
+  display: inline-flex;
+  padding-bottom: 8vh;
+}
+.schaefflerimg{
+  width:25vw;
+  height:10vh;
+  margin-bottom:10vh;
+  position:absolute;
+}
+.burn{
+  width:28vw;
+  height:35vw;
+  padding:0;
+  float:right;
+}
+.burnimg{
+  width:23vw;
+  height:30vh;
 }
