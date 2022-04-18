@@ -1,0 +1,156 @@
+body{
+  font-size: 3vw;
+  font-family:Formula1;
+  margin:0;
+  background-color:black;
+  color:white;
+}
+#pg{
+  width:100vw;
+  height:150vh;
+}
+.container{
+  height:100%;
+  width:100%;
+}
+#header{
+  text-align: center;
+  width: 100vw;
+  height:10vh;
+}
+.cel{
+  float: left;
+  align-items:top;
+  width: 10vw;
+  font-size: 1.8vw;
+  display: inline-flex;
+  margin-left:5vw;
+}
+.home{
+  font-size: 1.8vw;
+  display: inline-flex;
+}
+.aboutus{
+  font-size: 1.8vw;
+  display: inline-flex;
+}
+.sponsors{
+  font-size: 1.8vw;
+  display: inline-flex;
+}
+.contact{
+  font-size: 1.8vw;
+  display: inline-flex;
+}
+.logo{
+  float: left;
+  width:10vw;
+  height:7vw;
+  margin-top:2.5vh;
+}
+.titlef{
+  color:red;
+  font-size:3vw;
+  font-weight:bold;
+  text-align:center;
+}
+.textf{
+  font-size:2vw; 
+  text-align: center;
+  width:80;
+  margin-left:10vw;
+  margin-right:10vw; 
+}
+#homepg{
+  padding-top:10vh;
+}
+video{
+  width: 100vw;
+  height: 50vh;
+  float:center;
+  text-align:center;
+}
+.teamm{
+  font-size:3vw;
+  text-align:center;
+}
+.namem{
+  font-size:2vw;
+  margin:3vh 10%;
+}
+.textm{
+  font-size:1.5vw;
+  text-align:center;
+  margin:0 10%;
+  width:40vw;
+  float:left;
+  margin-bottom:10vh;
+}
+#more {
+  display: none;
+}
+#myBtn{
+  width:40vw;
+  margin:auto 10%;
+  font-family: Formula1;
+  color:white;
+  background-color:black;
+}
+.imgm{
+  width:40vw;
+  float:right;
+  height:13vw;
+}
+.imga{
+  width:20vw;
+  height:40vh;
+  border-radius:5%;
+}
+.imgmd{
+  width:20vw;
+  height:60vh;
+  border-radius:5%;
+}
+.imgal{
+  width:20vw;
+  height:40vh;
+}
+.imgd{
+  width:20vw;
+  height:60vh;
+}
+.imgv{
+  width:20vw;
+  height:40vh;
+}
+#bound-one {
+	background:black;
+}
+#bound-two {
+	background:black;
+}
+#bound-three {
+	background:black;
+}
+.scroll-bound {
+	height: 100vh;
+}
+	.content {
+		height: 100vh;
+		width: 100%;
+		position: sticky;
+		top:0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	video {
+		width: 100%;
+	}
+.teams{
+  width:100vw;
+  align-items:center;
+  margin:0;
+}
