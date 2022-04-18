@@ -2,7 +2,7 @@ body {
   font-size: 3vw;
   font-family: Formula1;
   margin: 0;
-  background-color:black;
+  background-color: black;
   color: white;
 }
 
@@ -200,69 +200,123 @@ video {
   height: 120vh;
   width: 100vw;
 }
-.ford{
-  width:28vw;
-  height:33vw;
-  padding:0;
-  margin:0 0 0 10vw;
+
+.ford {
+  width: 28vw;
+  height: 33vw;
+  padding: 0;
+  margin: 0 0 0 10vw;
   display: inline-flex;
 }
-.fordimg{
-  width:20vw;
-  height:30vh;
+
+.fordimg {
+  width: 20vw;
+  height: 30vh;
 }
-.miele{
-  width:28vw;
-  height:40vw;
-  margin:0;
+
+.miele {
+  width: 28vw;
+  height: 40vw;
+  margin: 0;
   display: inline-flex;
 }
-.mieleimg{  
-  width:20vw;
-  height:30vh;
+
+.mieleimg {
+  width: 20vw;
+  height: 30vh;
 }
-.elgeka{
-  width:28vw;
-  height:33vw;
-  margin:0;
+
+.elgeka {
+  width: 28vw;
+  height: 33vw;
+  margin: 0;
   display: inline-flex;
-  float:right;
+  float: right;
 }
-.elgekaimg{
-  width:23vw;
-  height:30vh;
+
+.elgekaimg {
+  width: 23vw;
+  height: 30vh;
 }
-.autoliv{
-  width:28vw;
-  height:35vw;
-  padding:0;
-  margin:0 0 0 10vw;
+
+.autoliv {
+  width: 28vw;
+  height: 35vw;
+  padding: 0;
+  margin: 0 0 0 10vw;
   display: inline-flex;
 }
-.autolivimg{
-  width:23vw;
-  height:30vh;
+
+.autolivimg {
+  width: 23vw;
+  height: 30vh;
 }
-.schaeffler{
-  width:28vw;
-  height:10vh;
-  padding:0;
+
+.schaeffler {
+  width: 28vw;
+  height: 10vh;
+  padding: 0;
   display: inline-flex;
   padding-bottom: 8vh;
 }
-.schaefflerimg{
-  width:25vw;
-  height:10vh;
-  margin-bottom:10vh;
-  position:absolute;
+
+.schaefflerimg {
+  width: 25vw;
+  height: 10vh;
+  margin-bottom: 10vh;
+  position: absolute;
 }
-.burn{
-  width:28vw;
-  height:35vw;
-  padding:0;
-  float:right;
+
+.burn {
+  width: 28vw;
+  height: 35vw;
+  padding: 0;
+  float: right;
 }
-.burnimg{
-  width:23vw;
-  height:30vh;
+
+.burnimg {
+  width: 23vw;
+  height: 30vh;
 }
+
+#footer-cs{
+  color:white;
+  text-transform:uppercase;
+  text-align:center;
+  padding: auto;
+  font-size:1.8vw;
+  width:100vw;
+  height:5vh;
+  display: block;
+}
+#content{
+  width:100vw;
+  height:7vh;
+}
+#email-cs{
+  color:white;
+  margin-bottom:3%;
+  text-align:center;
+  width:33.3vw;
+  height:7vh;
+  float:left;
+}
+.email{
+  font-size:1.2vw;
+  margin-left:12%;
+  text-decoration: none;
+}
+.mail{
+  text-decoration: none;
+  color:white;
+  padding-top: 1vh;
+}
+#quote{
+  color:white;
+  font-style:italic;
+  text-align:center;
+  font-size:1.1vw;
+  width:33.3vw;
+  float:left;
+}
+
